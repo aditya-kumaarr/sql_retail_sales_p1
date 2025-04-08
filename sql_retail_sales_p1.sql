@@ -1,6 +1,6 @@
 -- ========================================================
 -- 📁 PROJECT TITLE: RETAIL SALES ANALYSIS USING SQL
--- 📊 DATASET: retail_sales.csv
+-- 📊 DATASET: SQL - Retail Sales Analysis_utf.csv
 -- 🛠️ TOOL: MySQL Workbench
 -- ========================================================
 
@@ -9,8 +9,7 @@
 -- CREATE TABLE
 -- ========================================================
 
-CREATE TABLE sql_project_p1.retail_sales 
-(
+CREATE TABLE sql_project_p1.retail_sales (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,
     sale_time TIME,
@@ -53,24 +52,19 @@ FROM
 -- DATA CLEANING : CHECK FOR NULLS
 -- ========================================================
 
-SELECT * 
-FROM sql_project_p1.retail_sales
-WHERE 
-	transactions_id IS NULL
-	OR
-    sale_date IS NULL
-    OR
-	sale_time IS NULL
-    OR
-    gender IS NULL
-    OR
-    category IS NULL
-    OR
-    quantity IS NULL
-    OR
-    cogs IS NULL
-    OR
-    total_sale IS NULL;
+SELECT 
+    *
+FROM
+    sql_project_p1.retail_sales
+WHERE
+    transactions_id IS NULL
+        OR sale_date IS NULL
+        OR sale_time IS NULL
+        OR gender IS NULL
+        OR category IS NULL
+        OR quantity IS NULL
+        OR cogs IS NULL
+        OR total_sale IS NULL;
     
 
 -- ====================================
@@ -134,7 +128,7 @@ WHERE
         AND quantity >= 4;
         
 -- ====================================================================
--- Q3. CALCULATE THE TOTAL SALES (TOTAL_SALE) FOR EACH PRODUCT CATEGORY
+-- Q3. CALCULATE THE TOTAL SALES FOR EACH PRODUCT CATEGORY
 -- ====================================================================
 
 SELECT 
@@ -225,7 +219,6 @@ GROUP BY category;
 -- ========================================================================================================
 -- Q10. CREATE TIME-BASED SHIFTS (MORNING, AFTERNOON, EVENING) AND COUNT THE NUMBER OF ORDERS IN EACH SHIFT
 -- ========================================================================================================
-
 
 WITH hourly_sale
 AS
