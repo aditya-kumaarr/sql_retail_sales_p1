@@ -238,6 +238,6 @@ A comprehensive SQL project involving database creation, data preprocessing, exp
 
 
 
-If you'd like to connect or collaborate on data projects, feel free to reach out on: 
-• LinkedIn: 
-• Email: adityaakumaarr@gmail.com
+## If you'd like to connect or collaborate on data projects, feel free to reach out on: 
+• **LinkedIn**: 
+• **Email**: adityaakumaarr@gmail.com
