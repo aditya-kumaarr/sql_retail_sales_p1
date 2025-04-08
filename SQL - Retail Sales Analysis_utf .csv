@@ -46,9 +46,6 @@ transactions_id,sale_date,sale_time,customer_id,gender,age,category,quantiy,pric
 1184,2022-02-12,08:28:00,23,Male,31,Electronics,4,50,27.5,200
 1734,2022-02-28,08:58:00,72,Female,27,Clothing,1,30,14.4,30
 225,2022-03-05,07:37:00,85,Female,57,Beauty,4,25,12.75,100
-679,2022-08-26,08:59:00,64,Female,18,Beauty,,,,
-746,2022-07-05,11:33:00,42,Female,33,Clothing,,,,
-1225,2022-02-02,09:51:00,137,Female,57,Beauty,,,,
 1679,2022-09-23,08:08:00,71,Female,18,Beauty,3,30,15.3,90
 1746,2022-06-13,07:59:00,88,Female,33,Clothing,3,30,10.8,90
 3,2022-06-14,07:08:00,114,Male,50,Electronics,1,30,8.1,30
