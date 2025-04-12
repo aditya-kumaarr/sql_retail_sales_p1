@@ -239,5 +239,5 @@ A comprehensive SQL project involving database creation, data preprocessing, exp
 
 
 ## If you'd like to connect or collaborate on data projects, feel free to reach out on: 
-• **LinkedIn**: 
+• **LinkedIn**: https://www.linkedin.com/in/aditya-kumar-4a175635b/
 • **Email**: adityaakumaarr@gmail.com
